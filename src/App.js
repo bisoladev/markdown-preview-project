@@ -14,7 +14,9 @@ function App() {
         >
         </textarea>
         <article className="result">
-          {markdown}
+          <ReactMarkdown>
+            {markdown}
+          </ReactMarkdown>
         </article>
       </section>
     </main>
